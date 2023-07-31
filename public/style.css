@@ -1,0 +1,32 @@
+.alert, .error {
+    width: 30%;
+    position: absolute;
+    z-index: 40000;
+    top: 40px;
+    right: 40px;
+    left: 40px;
+    margin: auto auto;
+    background-color: rgb(64, 187, 64);
+    color: white;
+    box-shadow: 1px 1px 9px rgb(58, 65, 58);
+    text-align: center;
+}
+
+.error {
+    background-color: rgb(233, 2, 2);
+}
+
+.info {
+    width: 30%;
+    position: absolute;
+    padding: 10px;
+    z-index: 40000;
+    top: 40px;
+    right: 40px;
+    left: 40px;
+    margin: auto auto;
+    background-color: rgb(64, 187, 90);
+    color: white;
+    box-shadow: 1px 1px 9px rgb(58, 65, 58);
+    text-align: center;
+}
